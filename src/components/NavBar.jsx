@@ -10,6 +10,7 @@ export const Navbar = () => {
                 <button><Link to="/equipo">NUESTRO EQUIPO</Link></button>
                 <button> <Link to="/serviciosestablecimientos">SERVICIOS ESTABLECIMIENTOS DE COMERCIO</Link></button>
                 <button><Link to="/serviciosurbanismo">URBANISMO</Link></button>
+                
             </nav>
 
 
