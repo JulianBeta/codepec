@@ -29,7 +29,9 @@ Acciones específicas:
   
 <li>Revisión y validación de documentos exigidos por las autoridades.</li>
 <li>		Asesoría y acompañamiento para garantizar el cumplimiento de todos los requisitos previstos el Artículo 87 del Código Nacional de Seguridad y Convivencia Ciudadana y demás normatividad aplicable.</li></ul>
+</h4>
 <h3>Ventajas para el cliente:</h3>
+<h4>
 <ul>
   <li>Prevención de sanciones y cierre de negocios.</li>
 <li>	Cumplimiento legal garantizado para evitar conflictos con las autoridades.</li>

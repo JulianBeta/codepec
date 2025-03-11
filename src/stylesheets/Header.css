@@ -1,14 +1,10 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-.header {
+
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color:#02113A;
+    background-color:#21c71c;
   
     position: fixed;
     z-index: 999;
