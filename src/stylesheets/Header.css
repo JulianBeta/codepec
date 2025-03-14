@@ -1,17 +1,18 @@
 
 
 header {
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color:#21c71c;
+    background-color:#170fb5;
   
     position: fixed;
     z-index: 999;
     top: 0;
     border-bottom: solid 3px #02113A;
     overflow: hidden;
-    max-height: 30vh;
+    height: 30vh;
     min-width: 100%;
 }
 

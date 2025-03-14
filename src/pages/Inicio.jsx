@@ -1,12 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import '../stylesheets/Inicio.css'
 
 
 
 
 export const Inicio = () => {
     return (
-        <div>
+        <div className='contenedorpagina'>
         <div>
 
            <h1>¿Quienes somos?</h1>
