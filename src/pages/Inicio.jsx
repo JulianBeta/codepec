@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import '../stylesheets/Inicio.css'
+import imagenciudad from '../assets/ciudad.jpg'
+import imagenestablecimiento from '../assets/establecimiento.jpg'
 
 
 
@@ -10,6 +12,12 @@ export const Inicio = () => {
         <div className='contenedorpagina'>
         <div>
 
+<div className='contenedorservicios'>
+ <div className='cuadroserviciosinicio'><Link to="/serviciosurbanismo"><img className="imagenesinicio" src={imagenciudad} alt="urbanismo" /><h3 className='textoserviciosinicio'>SERVICIOS URBANISMO</h3></Link>
+</div>
+<div className='cuadroserviciosinicio'>
+        <Link to="/serviciosestablecimientos"><img className="imagenesinicio" src={imagenestablecimiento} alt="establecimientos" /><h3 className='textoserviciosinicio'>SERVICIOS ESTABLECIMIENTOS DE COMERCIO</h3></Link>
+        </div></div>
            <h1>¿Quienes somos?</h1>
            <p>CODEPEC S.A.S. es una firma legal especializada en la asesoría, defensa y promoción de los derechos de los propietarios de establecimientos comerciales en Colombia. Nuestra misión es ofrecer soluciones jurídicas integrales que permitan a nuestros clientes operar dentro del marco normativo, minimizando riesgos legales y optimizando su gestión empresarial.
 Conformado por un equipo altamente calificado, CODEPEC S.A.S. brinda acompañamiento en áreas clave como el derecho policivo, administrativo, urbanístico, laboral, comercial y de propiedad intelectual, garantizando seguridad jurídica y protección ante las decisiones de las autoridades.

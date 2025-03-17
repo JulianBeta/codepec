@@ -1,8 +1,9 @@
 import React from 'react'
+import '../stylesheets/comunpages.css'
 
 export const Clientes = () => {
   return (
-    <div >
+    <div className='contenedorpagina'>
       <div><h2>CODEPEC S.A.S. ha brindado asesoría y representación a diversas empresas y establecimientos comerciales en Colombia, entre ellos:</h2>
     
     <ul>

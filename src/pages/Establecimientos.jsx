@@ -1,8 +1,9 @@
 import React from 'react'
+import '../stylesheets/comunpages.css'
 
 export const Establecimientos = () => {
   return (
-    <div> <div><h1>SERVICIOS A ESTABLECIMIENTOS DE COMERCIO</h1></div>
+    <div className='contenedorpagina'> <div><h1>SERVICIOS A ESTABLECIMIENTOS DE COMERCIO</h1></div>
     
     <div> <h2>ASESORÍA, ACOMPAÑAMIENTO Y REPRESENTACIÓN ANTE INSPECTORES DE POLICÍA POR MEDIDAS CORRECTIVAS</h2>
 <h4>

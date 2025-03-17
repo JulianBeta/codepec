@@ -1,9 +1,10 @@
 import React from 'react'
+import '../stylesheets/comunpages.css'
 
 export const Urbanismo = () => {
   return (
     <div> 
-      <div><h1>SERVICIOS EN URBANISMO</h1></div>
+      <div className='contenedorpagina'><h1>SERVICIOS EN URBANISMO</h1></div>
     
     <div> <h2>ASESORÍA, ACOMPAÑAMIENTO Y REPRESENTACIÓN EN PROCESOS POLICIVOS POR INFRACCIONES URBANÍSTICAS</h2>
 <h4>

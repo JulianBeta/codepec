@@ -1,8 +1,9 @@
 import React from 'react'
+import '../stylesheets/comunpages.css'
 
 export const Equipo = () => {
   return (
-    <div><h1>EQUIPO PROFESIONAL</h1><h3>Nuestro equipo está conformado por abogados especializados en distintas áreas del derecho, garantizando una asesoría integral y eficiente:</h3>
+    <div className='contenedorpagina'><h1>EQUIPO PROFESIONAL</h1><h3>Nuestro equipo está conformado por abogados especializados en distintas áreas del derecho, garantizando una asesoría integral y eficiente:</h3>
     
     <ul>
     <li>	<b>María I. Sánchez:</b> Abogada, Magíster en Derecho Público y Especialista en Derecho Administrativo.</li>

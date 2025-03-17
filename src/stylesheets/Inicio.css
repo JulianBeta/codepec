@@ -1,6 +1,23 @@
 .contenedorpagina {
-    
+    position: relative;
     margin: 20vh;
     margin-top: 40vh;
     
+}
+
+.contenedorservicios {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    align-items: center;
+    justify-items: center;
+    position: relative;
+}
+
+.cuadroserviciosinicio {
+justify-content: center;
+}
+
+.textoserviciosinicio {
+    justify-items: center;
 }
