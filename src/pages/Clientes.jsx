@@ -1,5 +1,6 @@
 import React from 'react'
 import '../stylesheets/comunpages.css'
+import GoToTop from '../components/Gototop'
 
 export const Clientes = () => {
   return (
@@ -17,7 +18,9 @@ export const Clientes = () => {
     <li>Acees Abogados S.A.S.</li>
     <li>Soluciones Urbanas Abogados S.A.S.</li>
     </ul>
-    </div></div>
+    </div>
+    <GoToTop/>
+    </div>
   )
 }
 

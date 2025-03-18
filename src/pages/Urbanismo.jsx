@@ -1,5 +1,6 @@
 import React from 'react'
 import '../stylesheets/comunpages.css'
+import GoToTop from '../components/Gototop'
 
 export const Urbanismo = () => {
   return (
@@ -43,7 +44,7 @@ Acciones específicas:
 </ul>
 </h4></div>
 
-
+<GoToTop/>
 
 </div>
   )

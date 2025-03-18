@@ -1,5 +1,6 @@
 import React from 'react'
 import '../stylesheets/comunpages.css'
+import GoToTop from '../components/Gototop'
 
 export const Establecimientos = () => {
   return (
@@ -92,7 +93,7 @@ Acciones específicas:
 
 </ul>
 </h4></div>
-      
+      <GoToTop/>
       </div>
   )
   

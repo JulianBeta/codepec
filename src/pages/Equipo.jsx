@@ -1,5 +1,6 @@
 import React from 'react'
 import '../stylesheets/comunpages.css'
+import GoToTop from '../components/Gototop'
 
 export const Equipo = () => {
   return (
@@ -12,6 +13,7 @@ export const Equipo = () => {
     <li><b>	Camilo Rodríguez:</b> Abogado Junior.</li>
     
     </ul>
+    <GoToTop/>
     </div>
   )
   

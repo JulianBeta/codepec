@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom'
 import '../stylesheets/Inicio.css'
 import imagenciudad from '../assets/ciudad.jpg'
 import imagenestablecimiento from '../assets/establecimiento.jpg'
+import Slider from '../components/Carrusel'
+import GoToTop from '../components/Gototop'
 
 
 
@@ -38,6 +40,9 @@ Nuestra experiencia nos permite ofrecer un servicio ágil, confiable y efectivo,
 
 </p>
 </div>
+<Slider/>
+
+<GoToTop/>
 </div>
                
 
