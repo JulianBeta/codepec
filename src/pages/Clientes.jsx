@@ -1,11 +1,8 @@
 import React from 'react'
-import '../stylesheets/comunpages.css'
-import GoToTop from '../components/Gototop'
 
-export const Clientes = () => {
+export const ClientesPage = () => {
   return (
-    <div className='contenedorpagina'>
-      <div><h2>CODEPEC S.A.S. ha brindado asesoría y representación a diversas empresas y establecimientos comerciales en Colombia, entre ellos:</h2>
+    <div><div><h2>CODEPEC S.A.S. ha brindado asesoría y representación a diversas empresas y establecimientos comerciales en Colombia, entre ellos:</h2>
     
     <ul>
     <li>	REED PUB</li>
@@ -18,9 +15,7 @@ export const Clientes = () => {
     <li>Acees Abogados S.A.S.</li>
     <li>Soluciones Urbanas Abogados S.A.S.</li>
     </ul>
-    </div>
-    <GoToTop/>
-    </div>
+    </div></div>
   )
 }
 
