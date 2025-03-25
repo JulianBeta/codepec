@@ -35,6 +35,7 @@ export const Clientes = () => {
        </div>
       </div>
       </div>
+      <GoToTop/>
     </div>
   );
 }

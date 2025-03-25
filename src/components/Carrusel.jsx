@@ -18,14 +18,14 @@ import { Link } from 'react-router-dom';
 
 export const Slider = () => {
   return (
-    <Link to="/clientes"><div className="container">
-      <h1 className="heading"></h1>
+    <div className="container"><Link to="/clientes">
+      {/* <h1 className="heading"></h1> */}
       <Swiper
         effect={'coverflow'}
         grabCursor={true}
         centeredSlides={true}
         loop={true}
-        slidesPerView={'2'}
+        slidesPerView={'1'}
         touchAngle={0}
         touchEventsTarget='container'
         autoplay={{
@@ -33,8 +33,8 @@ export const Slider = () => {
           disableOnInteraction: false,
         }}
         coverflowEffect={{
-          rotate: 1,
-          stretch: 3,
+          rotate: 2,
+          stretch: 5,
           depth: 100,
           modifier: 2.5,
         }}
@@ -52,8 +52,7 @@ export const Slider = () => {
          <img src={slide_image_1} alt="slide_image" />
         </SwiperSlide>
         <SwiperSlide>
-        <a href='http://localhost:5173/concursos'/>
-          <img  src={slide_image_2} alt="slide_image" />
+         <img  src={slide_image_2} alt="slide_image" />
         </SwiperSlide>
         <SwiperSlide>
           <img src={slide_image_3} alt="slide_image" />
@@ -86,8 +85,8 @@ export const Slider = () => {
         <br></br> <br></br> <br></br>
       </Swiper>
       {/* <h4 className='textoseccioncontacto'>CONCURSOS EN DESARROLLO</h4> */}
-        
-    </div> </Link>
+        </Link>
+    </div> 
   );
 }
 
