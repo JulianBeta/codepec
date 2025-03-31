@@ -14,7 +14,7 @@ function ClienteComponent(props) {
                 <p className='nombre-cliente'>
                  <strong>{props.nombre}</strong> 
                 </p>
-                <p className='descripcion-cliente'>"{props.descripcion}"</p>
+                <p className='descripcion-cliente'>{props.descripcion}</p>
             </div>
         </div>
     );
