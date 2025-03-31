@@ -3,13 +3,18 @@ import  '../stylesheets/ClienteComponent.css';
 
 function ClienteComponent(props){
     return(
-            <div className = 'contenedor-cliente'>
+         <div className = 'contenedor-cliente'>
+            
                 <img
-                  /*  className = 'imagen-cliente'
-                    src = {require(`../images/logo-${props.imagen}.png`)} 
-                    alt= 'logo-CODEPEC'*/
+                    /*ESTO ES LO QUE FALLA! LA IMAGEN NO SE DEJA IMPORTAR ARRIBA POR EL CARACTER GUIÓN QUE USA EL NOMBRE DEL ARCHIVO "-", 
+                    PERO ESE GUIÓN SE REQUIERE PARA MANDAR LA IMAGEN CON PROPS.
+                    
+                    /*className = 'imagen-cliente'
+                    src = {require(`../images/logo-${props.imagen}.png`)}
+                    
+                    alt= 'logo-CODEPEC' */
                 />
-            <div className='contenedor-texto-cliente'>
+             <div className='contenedor-texto-cliente'>
                 <p className='nombre-cliente'>
                  <strong>{props.nombre}</strong> 
                 </p>

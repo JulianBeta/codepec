@@ -20,7 +20,7 @@
 
 .contenedor-cliente{
     width: 1170px;
-    height: 124px;
+    height: 368px;
     margin: 10px 10px 50px ;
     display: flex;
     align-items: center;
@@ -32,19 +32,28 @@
 .imagen-cliente{
     height: 100%;
     width: auto;
+    flex-wrap: wrap;
+}
+
+.contenedor-texto-cliente{
+    width: 100%;
+    text-align: center;
+    padding: 40px;
+    font-weight: 400;
+    line-height: 1.5rem;
 }
 
 .descripcion-cliente{
     width: 100%;
     font-size: 18px;
     
-    text-align: center;
+    text-align: justify;
     padding: 20px;
     font-weight: 400;
     line-height: 1.8rem;
 }
 
 .nombre-cliente{
-    font-size: 1.3rem;
+    font-size: 1.3rem; 
     margin-top: 4rem;
 }
