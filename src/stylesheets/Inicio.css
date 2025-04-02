@@ -20,10 +20,9 @@
 }
 
 .cuadroserviciosinicio {
-    display: flex;
+     display: flex;
     border-radius: 8% ;
-
-    
+   
 justify-content: center;
 text-align: center;
 width: 40%;
@@ -32,6 +31,7 @@ width: 40%;
 .imagenesinicio {
     border: solid 2px #170fb5;
     border-radius: 8%;
+    width: 30rem;
 }
 
 .textoserviciosinicio {
@@ -41,7 +41,9 @@ width: 40%;
 }
 
 .seccionquienesyporque {
+    display: flex;
     margin: 5%;
+    align-content: center;
 
 
 }
@@ -49,11 +51,15 @@ width: 40%;
 
 
 .titulossecundariosinicio {
+
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin-bottom: 2%;
 }
 
 .textoquienesyporque {
     text-align: justify;
+    width: 100%;
+    justify-items: center;
+    font: 1.5rem sans-serif;
 }
