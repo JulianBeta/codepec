@@ -16,22 +16,29 @@ export const Clientes = () => {
       <div className='contenedor-principal'>
        <div className='titulo'><h2>CODEPEC S.A.S. ha brindado asesoría y representación a diversas empresas y establecimientos comerciales en Colombia, entre ellos:</h2>
         <ClienteComponent
-          imagen = 'REED PUB'
-          nombre = 'REED PUB'
+          imagen='reeds'
+          nombre='REED PUB'
           descripcion = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'/>
         <ClienteComponent
-          nombre = 'MAS Centro Deportivo'
+         imagen = 'nextdoor'
+         nombre = 'MAS Centro Deportivo'
           descripcion = 'chupadero de gays'/>
         <ClienteComponent
+          imagen = 'melomarket'
           nombre = 'REED PUB'
           descripcion = 'chupadero de gays'/>
         <ClienteComponent
+          imagen = 'mass'
           nombre = 'REED PUB'
           descripcion = 'chupadero de gays'/>
         <ClienteComponent
+          imagen = 'grub'
           nombre = 'REED PUB'
           descripcion = 'chupadero de gays'/>
-
+<ClienteComponent
+          imagen = 'acees'
+          nombre = 'REED PUB'
+          descripcion = 'chupadero de gays'/>
        </div>
       </div>
       </div>
