@@ -13,48 +13,50 @@ export const Clientes = () => {
     <div className='contenedorpagina'>
       <div className = 'clientes'>
       <div className='contenedor-principal'>
-       <div className='titulo'><h2>CODEPEC S.A.S. ha brindado asesoría y representación a diversas empresas y establecimientos comerciales en Colombia, entre ellos:</h2>
+       <div className='titulo'><h2>CODEPEC S.A.S. tiene entre sus clientes a diversas empresas y establecimientos comerciales en Colombia, que reciben servicios de asesoría y representación legal. Algunos de nuestros clientes son:</h2>
         <ClienteComponent
           imagen='reeds'
-          nombre='REED PUB'
-          descripcion = 'Reconocido PUB ubicado en la localidad de Teusaquillo en Bogotá. Con un modelo de negocio enfocado en la hospitalidad y el entretenimiento, este pub opera bajo altos estándares de calidad.'/>
+          nombre='Reed Pub'
+          descripcion = 'Reconocido PUB ubicado en la localidad de Teusaquillo en Bogotá. Los servicios prestados a este establecimiento comercial incluyen: elaboración, radicación y seguimiento de escritos de objeción a medidas correctivas y representación legal y acompañamiento en audiencias ante inspectores de policía.'/>
+        <ClienteComponent
+          imagen='oras'
+          nombre='Oras Techonologies S.A.S.'
+          descripcion = 'Empresa de ingeniería con 10 años de trayectoria, enfocada en Inteligencia Analítica, Seguridad Electrónica, Telecomunicaciones y Desarrollo de Software. Los servicios prestados a esta empresa son: elaboración y revisión de contratos laborales, cumplimiento normativo en términos de horas extras, turnos y prestaciones y asesoría en medidas disciplinarias y terminación de contratos.'/>
+        <ClienteComponent
+          imagen = 'ssac'
+          nombre = 'Sistemas de Seguridad Antenas y Citófonos S.A.'
+          descripcion = 'Especializados en la instalación de redes comunales de antenas, citofonía, cámaras de video, alarmas y electricidad en proyectos de multivivienda. Esta empresa recibe nuestros servicios en la revisión y validación de documentos exigidos por las autoridades para su funcionamiento, así como la redacción y negociación de contratos comerciales y de suministro.'/>       
+        <ClienteComponent
+         imagen = 'nextdoor'
+         nombre = 'Next Door Hostel'
+          descripcion = 'Alojamiento moderno y versátil ubicado en Bogotá, ideal paraquienes buscan comodidad y servicios integrales. Desde CODEPEC SAS, brindamos asesoría y acompañamiento para garantizar el cumplimiento de todos los requisitos previstos en el Código Nacional de Seguridad y Convivencia Ciudadana y demás normatividad aplicable para el desarrollo de su actividad económica.'/>
+        <ClienteComponent
+          imagen = 'melomarket'
+          nombre = 'El Melón Market'
+          descripcion = 'Empresa con más de 12 años de experiencia, ubicada en Ocaña, Norte de Santander. Los servicios que brinda CODEPEC a esta empresa incluyen la asesoría en contratos de arrendamiento, suministro y prestación de servicios; y asesoría en contratación laboral en cuanro a el cumplimiento normativo en términos de horas extras, turnos y prestaciones.'/>
+        <ClienteComponent
+          imagen = 'mass'
+          nombre = 'MAS Centro Deportivo de Desarrollo Personal'
+          descripcion = 'Academia de artes marciales con más de 12 años de experiencia. Es un referente de los deportes de combate a nivel nacional. Como clientes de CODEPEC, han recibido apoyo en la revisión y validación de documentos exigidos por las autoridades para su funcionamiento, así como en la elaboración de contratos de arrendamiento, suministro y de contratos de luchadores, para el desarrollo de sus eventos.'/>
+        <ClienteComponent
+          imagen = 'grub'
+          nombre = 'Grub'
+          descripcion = 'Establecimiento comercial especializado en Smash Burguers y Pizzas Napolitanas. Como clientes de CODEPEC SAS se han beneficiado con la defensa ante prácticas de competencia desleal, protección y registro de derechos de propiedad intelectual y representación en acciones judiciales y extrajudiciales.'/>
+        </div>
+        <div className='titulo'><h2> Entre nuestros aliados y colaboradores para el cumplimiento de nuestros objetivos misionales, contamos con:</h2>
         <ClienteComponent
           imagen = 'naturasas'
           nombre = 'Natura Construcciones S.A.S.'
           descripcion = 'Natura Construcciones SAS trabaja desde 1998 en proyectos inmobiliarios de alto impacto, creando espacios donde el bienestar y la calidad de vida son la base.'/>       
         <ClienteComponent
-          imagen='oras'
-          nombre='ORAS TECHNOLOGIES'
-          descripcion = 'Empresa de ingeniería con 10 años de trayectoria, enfocada en Inteligencia Analítica, Seguridad Electrónica, Telecomunicaciones y Desarrollo de Software.'/>
-        <ClienteComponent
-          imagen = 'ssac'
-          nombre = 'Sistemas de Seguridad Antenas y Citófonos S.A.'
-          descripcion = 'Especializados en la instalación de redes comunales de antenas, citofonía, cámaras de video, alarmas y electricidad en proyectos de multivivienda.'/>       
-        <ClienteComponent
-         imagen = 'nextdoor'
-         nombre = 'Next Door Hostel'
-          descripcion = 'Next Door Hostel es un alojamiento moderno y versátil ubicado en Bogotá, ideal para viajeros, emprendedores y profesionales que buscan comodidad y servicios integrales. Este hostal fomenta la interacción y el networking, espacios variados y únicos.'/>
-        <ClienteComponent
-          imagen = 'melomarket'
-          nombre = 'El Melón Market'
-          descripcion = 'Empresa con más de 12 años al servicio de los ocañeros ofreciendo gran variedad de productos y una excelente atención. Ubicados en Ocaña, Norte de Santade, Barrio La Primavera.'/>
-        <ClienteComponent
-          imagen = 'mass'
-          nombre = 'MAS Centro Deportivo de Desarrollo Personal'
-          descripcion = 'Academia de artes marciales con más de 12 años de experiencia en el sector. En la actualidad es un referente de los deportes de combate a nivel nacional.'/>
-        <ClienteComponent
-          imagen = 'grub'
-          nombre = 'GRUB'
-          descripcion = 'Establecimiento comercial especializado en Smash Burguers y Pizzas Napolitanas.'/>
-           <ClienteComponent
           imagen = 'acees'
-          nombre = 'ACEES'
-          descripcion = 'ACEES es un equipo de abogados con amplia experiencia en el asesoramiento legal a empresas. Nos especializamos en derecho laboral, comercial y de tierras.'/>
+          nombre = 'Aceess Abogados'
+          descripcion = 'Acees Abogados - Abogacía para empresas y negocios, es un equipo de abogados con amplia experiencia en el asesoramiento legal a empresas. Nos especializamos en derecho laboral, comercial y de tierras.'/>
         <ClienteComponent
           imagen = 'apep'
-          nombre = 'APEP'
+          nombre = 'Asociación para la Promoción del Empleo Público'
           descripcion = 'APEP es una asociación interdisciplinaria de profesionales con presencia a nivel nacional, especializada en brindar servicios integrales de asesoría, acompañamiento y capacitación en los procesos de selección adelantados por la Comisión Nacional del Servicio Civil.'/>
-        </div>
+        </div>  
       </div>
       </div>
       <GoToTop/>
@@ -62,18 +64,3 @@ export const Clientes = () => {
   );
 }
 export default Clientes;
-/*<div className = 'titulo'><div><h2>CODEPEC S.A.S. ha brindado asesoría y representación a diversas empresas y establecimientos comerciales en Colombia, entre ellos:</h2>
-<div className = 'contenedor2'>
-      <ul>
-        <li>	REED PUB</li>
-        <li>	MAS Centro Deportivo</li>
-        <li>Grup Bogotá</li>
-        <li>Nextdoor Hostel</li>
-        <li>APEP Colombia</li>
-        <li>Melon Market</li>
-        <li>Natura Construcciones S.A.S.</li>
-        <li>Acees Abogados S.A.S.</li>
-        <li>Soluciones Urbanas Abogados S.A.S.</li>
-      </ul>
-    </div>
-</div></div>*/
