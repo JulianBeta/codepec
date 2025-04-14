@@ -3,6 +3,8 @@
     margin: 0;
     box-sizing: border-box;
     box-sizing: inherit;
+    font: 12px arial;
+    line-height: 30px;
 }
 
 

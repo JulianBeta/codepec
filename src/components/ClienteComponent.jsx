@@ -11,9 +11,9 @@ function ClienteComponent(props) {
                   src={`src/assets/logo${props.imagen}.jfif`}
                   alt="Logo Reeds"/>
             <div className='contenedor-texto-cliente'>
-                <p className='nombre-cliente'>
-                 <strong>{props.nombre}</strong> 
-                </p>
+                <b><p className='nombre-cliente'>
+                 {props.nombre} 
+                </p></b>
                 <p className='descripcion-cliente'>{props.descripcion}</p>
             </div>
         </div>

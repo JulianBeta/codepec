@@ -3,17 +3,15 @@ import '../stylesheets/ClienteComponent.css'
 import '../components/ClienteComponent.jsx'
 import '../stylesheets/comunpages.css'
 import ClienteComponent from '../components/ClienteComponent.jsx';
-import '../stylesheets/comunpages.css'
 import GoToTop from '../components/Gototop'
 
 export const Clientes = () => {
   return (
     
-
     <div className='contenedorpagina'>
-      <div className = 'clientes'>
-      <div className='contenedor-principal'>
-       <div className='titulo'><h2>CODEPEC S.A.S. tiene entre sus clientes a diversas empresas y establecimientos comerciales en Colombia, que reciben servicios de asesoría y representación legal. Algunos de nuestros clientes son:</h2>
+      
+    <div className='contenedor-principal'>
+      <h2 className='titulo'>CODEPEC S.A.S. tiene entre sus clientes a diversas empresas y establecimientos comerciales en Colombia, que reciben servicios de asesoría y representación legal. Algunos de nuestros clientes son:</h2>
         <ClienteComponent
           imagen='reeds'
           nombre='Reed Pub'
@@ -43,7 +41,7 @@ export const Clientes = () => {
           nombre = 'Grub'
           descripcion = 'Establecimiento comercial especializado en Smash Burguers y Pizzas Napolitanas. Como clientes de CODEPEC SAS se han beneficiado con la defensa ante prácticas de competencia desleal, protección y registro de derechos de propiedad intelectual y representación en acciones judiciales y extrajudiciales.'/>
         </div>
-        <div className='titulo'><h2> Entre nuestros aliados y colaboradores para el cumplimiento de nuestros objetivos misionales, contamos con:</h2>
+        <div className='contenedor-principal'><h2 className='titulo'> Entre nuestros aliados y colaboradores para el cumplimiento de nuestros objetivos misionales, contamos con:</h2>
         <ClienteComponent
           imagen = 'naturasas'
           nombre = 'Natura Construcciones S.A.S.'
@@ -56,9 +54,8 @@ export const Clientes = () => {
           imagen = 'apep'
           nombre = 'Asociación para la Promoción del Empleo Público'
           descripcion = 'APEP es una asociación interdisciplinaria de profesionales con presencia a nivel nacional, especializada en brindar servicios integrales de asesoría, acompañamiento y capacitación en los procesos de selección adelantados por la Comisión Nacional del Servicio Civil.'/>
-        </div>  
-      </div>
-      </div>
+        
+        </div>
       <GoToTop/>
     </div>
   );

@@ -1,6 +1,5 @@
 .container {
-    width: 50%;
-    border: solid 4px red;
+  display: contents;  
     overflow: auto;
       }
 

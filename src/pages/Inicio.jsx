@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom'
 import '../stylesheets/Inicio.css'
 import imagenciudad from '../assets/ciudad.jpg'
 import imagenestablecimiento from '../assets/establecimiento.jpg'
-import Slider from '../components/Carrusel'
 import Slider2 from '../components/Carrusel2'
 
 
@@ -33,13 +32,12 @@ Nuestra experiencia nos permite ofrecer un servicio ágil, confiable y efectivo,
 <div className='seccionquienesyporque'>
 
 <p className='textoquienesyporque'>
-<ul>    
-<li>Experiencia y especialización: Nuestro equipo cuenta con amplia trayectoria en la defensa de comerciantes y constructoras ante autoridades administrativas y de policía.</li>
-<li>Soluciones personalizadas: Adaptamos nuestra asesoría a las necesidades específicas de cada cliente.</li>
-<li>Defensa efectiva: Nos enfocamos en proteger los intereses de nuestros clientes con estrategias legales sólidas.</li>
-<li>Respaldo integral: Brindamos asesoría en múltiples áreas del derecho, garantizando una protección completa.</li>
-¡Contáctanos y protege tu negocio con CODEPEC S.A.S.!
-</ul>
+   
+Experiencia y especialización: Nuestro equipo cuenta con amplia trayectoria en la defensa de comerciantes y constructoras ante autoridades administrativas y de policía.<br></br><br></br>
+- Soluciones personalizadas: Adaptamos nuestra asesoría a las necesidades específicas de cada cliente.<br></br>
+- Defensa efectiva: Nos enfocamos en proteger los intereses de nuestros clientes con estrategias legales sólidas.<br></br>
+- Respaldo integral: Brindamos asesoría en múltiples áreas del derecho, garantizando una protección completa.<br></br><br></br>
+Contáctanos y protege tus derechos, intereses y negocios con CODEPEC S.A.S.
 
 </p>
 </div><h1 className='titulossecundariosinicio'>NUESTROS CLIENTES</h1>

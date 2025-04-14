@@ -18,8 +18,8 @@ import { Link } from 'react-router-dom';
 
 const Slider2 = () => {
   return (
-    <Link to="/concursos"><div className="container">
-      <h1 className="heading"></h1>
+   <div className="contenedorcarrusel"> <Link to="/clientes">
+      {/* <h1 className="heading"></h1> */}
       <Swiper
         effect={'coverflow'}
         grabCursor={true}
@@ -49,11 +49,11 @@ const Slider2 = () => {
       >
                
         <SwiperSlide>
-        <a href='http://localhost:5173/concursos'/>
+        
           <img src={slide_image_1} alt="slide_image" />
         </SwiperSlide>
         <SwiperSlide>
-        <a href='http://localhost:5173/concursos'/>
+     
           <img  src={slide_image_2} alt="slide_image" />
         </SwiperSlide>
         <SwiperSlide>
@@ -86,8 +86,8 @@ const Slider2 = () => {
         </div>
       </Swiper>
       
-        
-    </div> </Link>
+        </Link>
+    </div> 
   );
 }
 

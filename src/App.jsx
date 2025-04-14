@@ -13,7 +13,7 @@ export const App = () => {
 
 
 
-    <div>
+   
       
    
       <Router>
@@ -37,7 +37,7 @@ export const App = () => {
 
 
 
-    </div>
+
   )
 }
 

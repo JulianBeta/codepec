@@ -1,4 +1,4 @@
-.titulo {
+.tituloequipo {
     width: 100%;
     font-size: 2rem;
     line-height: 1.1;
@@ -12,18 +12,18 @@
  }
  
  .contenedor-principal{
-    width: 100%;
      min-height: 600px;
-     display: flex;
-     flex-wrap: wrap;
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     gap: 40px;
      align-items: center;
      justify-content: center;
  }
  
- .contenedor-cliente{
-     width: 1170px;
+ .contenedor-equipo{
+     width: 30vw;
      height: 220px;
-     margin: 10px 10px 50px ;
+     margin-top: 5vh;
      display: flex;
      align-items: center;
      justify-content: center;
@@ -31,14 +31,13 @@
      box-shadow: 0px 3px 13px 1px rgb(0 0 0 / 9%);
     }
  
- .imagen-cliente{
+ .imagen-equipo{
      height: 100%;
      width: auto;
      flex-wrap: wrap;
-     align-self: center;
  }
  
- .contenedor-texto-cliente{
+ .contenedor-texto-equipo{
      width: 100%;
      text-align: center;
      padding: 40px;
@@ -46,17 +45,16 @@
      line-height: 1.5rem;
  }
  
- .descripcion-cliente{
+ .descripcion-equipo{
      width: 100%;
      font-size: 18px;
-     
-     text-align: justify;
+     text-align: center;
      padding: 20px;
      font-weight: 400;
      line-height: 1.8rem;
  }
  
- .nombre-cliente{
+ .nombre-equipo{
      font-size: 1.3rem; 
      margin-top: 1rem;
  }
