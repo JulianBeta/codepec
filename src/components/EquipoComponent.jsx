@@ -12,7 +12,7 @@ function EquipoComponent(props) {
                   alt="EquipoCOPEPEC"/>
             <div className='contenedor-texto-equipo'>
                 <p className='nombre-equipo'>
-                 <strong>{props.nombre}</strong> 
+                 {props.nombre} 
                 </p>
                 <p className='descripcion-equipo'>{props.descripcion}</p>
             </div>

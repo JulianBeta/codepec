@@ -11,15 +11,17 @@ export const Clientes = () => {
     <div className='contenedorpagina'>
       
     <div className='contenedor-principal'>
-      <h2 className='titulo'>CODEPEC S.A.S. tiene entre sus clientes a diversas empresas y establecimientos comerciales en Colombia, que reciben servicios de asesoría y representación legal. Algunos de nuestros clientes son:</h2>
+      <h2 className='titulo'>CLIENTES</h2> 
+      {/* <h1 className='textotitulo'>CODEPEC S.A.S. tiene entre sus clientes a diversas empresas y establecimientos comerciales en Colombia, que reciben servicios de asesoría y representación legal. Algunos de nuestros clientes son:</h1> */}
+           <ClienteComponent
+          imagen='oras'
+          nombre='Oras Techonologies S.A.S.'
+          descripcion = 'Empresa de ingeniería con 10 años de trayectoria, enfocada en Inteligencia Analítica, Seguridad Electrónica, Telecomunicaciones y Desarrollo de Software. Los servicios prestados a esta empresa son: elaboración y revisión de contratos laborales, cumplimiento normativo en términos de horas extras, turnos y prestaciones y asesoría en medidas disciplinarias y terminación de contratos.'/>
         <ClienteComponent
           imagen='reeds'
           nombre='Reed Pub'
           descripcion = 'Reconocido PUB ubicado en la localidad de Teusaquillo en Bogotá. Los servicios prestados a este establecimiento comercial incluyen: elaboración, radicación y seguimiento de escritos de objeción a medidas correctivas y representación legal y acompañamiento en audiencias ante inspectores de policía.'/>
-        <ClienteComponent
-          imagen='oras'
-          nombre='Oras Techonologies S.A.S.'
-          descripcion = 'Empresa de ingeniería con 10 años de trayectoria, enfocada en Inteligencia Analítica, Seguridad Electrónica, Telecomunicaciones y Desarrollo de Software. Los servicios prestados a esta empresa son: elaboración y revisión de contratos laborales, cumplimiento normativo en términos de horas extras, turnos y prestaciones y asesoría en medidas disciplinarias y terminación de contratos.'/>
+     
         <ClienteComponent
           imagen = 'ssac'
           nombre = 'Sistemas de Seguridad Antenas y Citófonos S.A.'
@@ -41,7 +43,9 @@ export const Clientes = () => {
           nombre = 'Grub'
           descripcion = 'Establecimiento comercial especializado en Smash Burguers y Pizzas Napolitanas. Como clientes de CODEPEC SAS se han beneficiado con la defensa ante prácticas de competencia desleal, protección y registro de derechos de propiedad intelectual y representación en acciones judiciales y extrajudiciales.'/>
         </div>
-        <div className='contenedor-principal'><h2 className='titulo'> Entre nuestros aliados y colaboradores para el cumplimiento de nuestros objetivos misionales, contamos con:</h2>
+        <br></br>
+        <div className='contenedor-principal'><h2 className='titulo'> ALIADOS </h2> 
+        {/* <h1 className='textotitulo'>Contamos con firmas aliadas para el cumplimiento integral de nuestros objetivos misionales</h1> */}
         <ClienteComponent
           imagen = 'naturasas'
           nombre = 'Natura Construcciones S.A.S.'

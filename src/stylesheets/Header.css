@@ -5,9 +5,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-   /* background-color:#170fb5;*/
-   background: linear-gradient(to right, #00509d, #14265a);
-  
+    background: linear-gradient(to right, #00509d, #14265a);
     position: fixed;
     z-index: 999;
     top: 0;
@@ -41,7 +39,7 @@ header {
     text-decoration: none;
     color: whitesmoke    ;
     font-weight: bolder;
-    font-size: 1em;
+    font-size: 2rem;
     text-align: center;
     padding: 0 0;
     transition: transform 0.3s ease; 
