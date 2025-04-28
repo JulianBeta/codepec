@@ -4,6 +4,7 @@ import '../stylesheets/Inicio.css'
 import imagenciudad from '../assets/ciudad.jpg'
 import imagenestablecimiento from '../assets/establecimiento.jpg'
 import Slider2 from '../components/Carrusel2'
+import logofondo from './../assets/Logopequeño.png'
 
 
 
@@ -11,15 +12,9 @@ import Slider2 from '../components/Carrusel2'
 
 export const Inicio = () => {
     return (
-        <div className='contenedorpagina'>
+        <div className='contenedorpagina' style={{ background: `url(${logofondo})`, backgroundRepeat: 'repeat', backgroundAttachment: 'local', backgroundSize: '100%' }}>
       
 
-<div className='contenedorservicios'>
- <div className='cuadroserviciosinicio'><Link to="/serviciosurbanismo"><img className="imagenesinicio" src={imagenciudad} alt="urbanismo" /><h3 className='textoserviciosinicio'>SERVICIOS URBANISMO</h3></Link>
-</div>
-<div className='cuadroserviciosinicio'>
-        <Link to="/serviciosestablecimientos"><img className="imagenesinicio" src={imagenestablecimiento} alt="establecimientos" /><h3 className='textoserviciosinicio'>SERVICIOS ESTABLECIMIENTOS DE COMERCIO</h3></Link>
-        </div></div>
 <h1 className='titulossecundariosinicio'>¿QUIÉNES SOMOS?</h1>
         <div className='seccionquienesyporque'>
            
@@ -27,17 +22,40 @@ export const Inicio = () => {
 Conformado por un equipo altamente calificado, CODEPEC S.A.S. brinda acompañamiento en áreas clave como el derecho policivo, administrativo, urbanístico, laboral, comercial y de propiedad intelectual, garantizando seguridad jurídica y protección ante las decisiones de las autoridades.
 Nuestra experiencia nos permite ofrecer un servicio ágil, confiable y efectivo, convirtiéndonos en aliados estratégicos para establecimientos comerciales que buscan protección frente a sanciones, medidas correctivas y litigios, así como en procesos de negociación predial y estudios de títulos.
 </p>
-</div>                      
+
+</div>  
+<h1 className='titulossecundariosinicio'>SERVICIOS</h1>   
+<div className='contenedorservicios'>
+
+ <div className='cuadroserviciosinicio'><Link to="/serviciosurbanismo"><img className="imagenesinicio" src={imagenciudad} alt="urbanismo" /><h3 className='textoserviciosinicio'>SERVICIOS URBANISMO</h3></Link>
+</div>
+<div className='cuadroserviciosinicio'>
+        <Link to="/serviciosestablecimientos"><img className="imagenesinicio" src={imagenestablecimiento} alt="establecimientos" /><h3 className='textoserviciosinicio'>SERVICIOS ESTABLECIMIENTOS DE COMERCIO</h3></Link>
+        </div></div>
+
 <h1 className='titulossecundariosinicio'>¿POR QUÉ ELEGIR CODEPEC S.A.S.?</h1>
 <div className='seccionquienesyporque'>
 
 <p className='textoquienesyporque'>
    
-Experiencia y especialización: Nuestro equipo cuenta con amplia trayectoria en la defensa de comerciantes y constructoras ante autoridades administrativas y de policía.<br></br><br></br>
-- Soluciones personalizadas: Adaptamos nuestra asesoría a las necesidades específicas de cada cliente.<br></br>
-- Defensa efectiva: Nos enfocamos en proteger los intereses de nuestros clientes con estrategias legales sólidas.<br></br>
-- Respaldo integral: Brindamos asesoría en múltiples áreas del derecho, garantizando una protección completa.<br></br><br></br>
-Contáctanos y protege tus derechos, intereses y negocios con CODEPEC S.A.S.
+-Experiencia y especialización: Nuestro equipo cuenta con amplia trayectoria en la defensa de comerciantes y constructoras ante autoridades administrativas y de policía.<br></br>
+
+-Asesoría preventiva: No solo actuamos ante problemas, sino que ayudamos a prevenirlos con orientación legal proactiva, reduciendo riesgos futuros.<br></br>
+
+-Enfoque multidisciplinario: Nuestro equipo combina conocimientos en derecho administrativo, comercial y urbanístico para ofrecer soluciones integrales.<br></br>
+
+-Accesibilidad y cercanía: Mantenemos una comunicación constante y transparente con nuestros clientes, asegurando que estén informados en cada etapa del proceso.<br></br>
+
+-Compromiso ético: Operamos con altos estándares de honestidad y profesionalismo, priorizando siempre los intereses de nuestros clientes.<br></br>
+
+-Flexibilidad en soluciones: Adaptamos nuestras estrategias no solo a las necesidades legales, sino también a las posibilidades económicas de cada cliente.<br></br>
+
+-Red de aliados estratégicos: Trabajamos en colaboración con expertos en diferentes áreas para fortalecer tu defensa cuando sea necesario.<br></br>
+
+-Respuesta ágil: Entendemos la urgencia en ciertos casos, por lo que actuamos con celeridad para minimizar impactos negativos en tu negocio.<br></br><br></br>
+
+<b>En  CODEPEC S.A.S. no solo defendemos tus derechos, sino que te acompañamos con experiencia, prevención y resultados reales. <br></br>Confía en un equipo que combina especialización, trato personalizado y compromiso con tu éxito legal y empresarial.</b>
+
 
 </p>
 </div><h1 className='titulossecundariosinicio'>NUESTROS CLIENTES</h1>

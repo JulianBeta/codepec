@@ -7,16 +7,16 @@ import Inicio from './pages/Inicio'
 import Establecimientos from './pages/Establecimientos'
 import Urbanismo from './pages/Urbanismo'
 import { Navbar } from './components/Navbar'
+import logofondo from './assets/establecimiento.jpg'
 
 export const App = () => {
   return (
 
 
 
-   
       
    
-      <Router>
+      <Router  >
 
         <Navbar/>
         

@@ -30,7 +30,7 @@
 .imagenesinicio {
     border: solid 2px #170fb5;
     border-radius: 8%;
-    width: 30rem;
+    width: 40rem;
 }
 
 .textoserviciosinicio {
@@ -54,7 +54,8 @@
 .titulossecundariosinicio {
 
     text-align: center;
-    font-size: 2rem;
+    font-size: 2.5rem;
+    font-weight: bolder;
     margin-bottom: 2%;
 }
 
@@ -64,4 +65,9 @@
     justify-items: center;
     font-size: 1.5rem;
     line-height: 3rem;
+}
+
+b {
+    font-size: 1.75rem;
+   
 }
