@@ -12,7 +12,7 @@ export const Establecimientos = () => {
 Acciones específicas:
 
 <ul>
-<li>Elaboración, radicación y seguimiento de escritos de objeción a medidas correctivas.</li>
+<li>Elaboración, radicación y seguimiento de escritos de objeción de medidas correctivas.</li>
 <li>Presentación de acciones de tutela por sellamientos ilegales.</li>
 <li>	Representación legal y acompañamiento en audiencias ante inspectores de policía.</li></ul>
 <h3>Ventajas para el cliente:</h3>
