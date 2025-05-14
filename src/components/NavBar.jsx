@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import './../stylesheets/Header.css'
 import { useState } from 'react'
 
-export const Navbar = () => {
+const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     const toggleMenu = () => {
@@ -42,5 +42,7 @@ export const Navbar = () => {
         </header>
     )
 }
+
+export default Navbar
 
 
