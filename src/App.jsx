@@ -7,8 +7,8 @@ import Inicio from './pages/Inicio'
 import Establecimientos from './pages/Establecimientos'
 import Urbanismo from './pages/Urbanismo'
 import logofondo from './assets/establecimiento.jpg'
+import Footer from './components/Footer'
 import Navbar from './components/Navbar.jsx'
-
 
 export const App = () => {
   return (
@@ -29,6 +29,7 @@ export const App = () => {
 
 
         </Routes>
+        <Footer />
 
 
       </Router>
