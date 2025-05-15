@@ -1,0 +1,22 @@
+.titulo1{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 5rem;
+}
+
+.titulo2{
+    font-size: 30px;
+    font-weight: bold;
+    font-size: 5rem;
+}
+
+.titulo3{
+    font-size: 20px;
+    font-style: italic;
+}
+
+.lista{
+    font-size: 10px;
+    font-style: italic;
+
+}
