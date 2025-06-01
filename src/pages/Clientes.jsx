@@ -20,12 +20,11 @@ export const Clientes = () => {
         <ClienteComponent
           imagen='reeds'
           nombre='Reed Pub'
-          descripcion = 'Reconocido PUB ubicado en la localidad de Teusaquillo en Bogotá. Los servicios prestados a este establecimiento comercial incluyen: elaboración, radicación y seguimiento de escritos de objeción a medidas correctivas y representación legal y acompañamiento en audiencias ante inspectores de policía.'/>
-     
+          descripcion = 'Reconocido PUB ubicado en la localidad de Teusaquillo en Bogotá. Los servicios prestados a este establecimiento comercial incluyen: elaboración, radicación y seguimiento de escritos de objeción a medidas correctivas y representación legal y acompañamiento en audiencias ante inspectores de policía.'/>     
         <ClienteComponent
           imagen = 'ssac'
           nombre = 'Sistemas de Seguridad Antenas y Citófonos S.A.'
-          descripcion = 'Especializados en la instalación de redes comunales de antenas, citofonía, cámaras de video, alarmas y electricidad en proyectos de multivivienda. Esta empresa recibe nuestros servicios en la revisión y validación de documentos exigidos por las autoridades para su funcionamiento, así como la redacción y negociación de contratos comerciales y de suministro.'/>       
+          descripcion = 'Especializados en la instalación de redes comunales de antenas, citofonía, cámaras, alarmas y electricidad en proyectos multivivienda. Recibe nuestros servicios en la revisión y validación de documentos exigidos por las autoridades para su funcionamiento, así como la redacción y negociación de contratos comerciales y de suministro.'/>       
         <ClienteComponent
          imagen = 'nextdoor'
          nombre = 'Next Door Hostel'
@@ -37,7 +36,7 @@ export const Clientes = () => {
         <ClienteComponent
           imagen = 'mass'
           nombre = 'MAS Centro Deportivo de Desarrollo Personal'
-          descripcion = 'Academia de artes marciales con más de 12 años de experiencia. Es un referente de los deportes de combate a nivel nacional. Como clientes de CODEPEC, han recibido apoyo en la revisión y validación de documentos exigidos por las autoridades para su funcionamiento, así como en la elaboración de contratos de arrendamiento, suministro y de contratos de luchadores, para el desarrollo de sus eventos.'/>
+          descripcion = 'Academia de artes marciales con más de 12 años de experiencia. Como clientes de CODEPEC, han recibido apoyo en la revisión y validación de documentos exigidos por las autoridades para su funcionamiento, así como en la elaboración de contratos de arrendamiento, suministro y de contratos de luchadores, para el desarrollo de sus eventos.'/>
         <ClienteComponent
           imagen = 'grub'
           nombre = 'Grub'
