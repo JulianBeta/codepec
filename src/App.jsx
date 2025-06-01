@@ -6,17 +6,15 @@ import Clientes from './pages/Clientes'
 import Inicio from './pages/Inicio'
 import Establecimientos from './pages/Establecimientos'
 import Urbanismo from './pages/Urbanismo'
-import { Navbar } from './components/Navbar'
+import logofondo from './assets/establecimiento.jpg'
+import Footer from './components/Footer'
+import Navbar from './components/Navbar.jsx'
 
 export const App = () => {
   return (
 
 
-
-   
-      
-   
-      <Router>
+      <Router  >
 
         <Navbar/>
         
@@ -31,6 +29,7 @@ export const App = () => {
 
 
         </Routes>
+        <Footer />
 
 
       </Router>
