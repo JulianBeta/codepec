@@ -1,20 +1,19 @@
 .titulo {
     width: 100%;
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     font-weight: bolder;
-    line-height: 2rem;
-    margin: 20px;
+    line-height: 3rem;
+    margin: 10px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: #02113A
-    
+    color: black; 
  }
  
 .textotitulo {
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin: 0;
 }
 
@@ -29,12 +28,13 @@
  
  .contenedor-cliente{
      width: 80%;
-     height: 220px;
+     height: 50%;
      margin: 10px 10px 50px ;
      display: flex;
+     color: whitesmoke;
      align-items: center;
      justify-content: center;
-     background-color: white;
+     background-color: #00509d;
      box-shadow: 5px 20px 5px rgba(0,0,0,0.7);
     }
  
@@ -47,6 +47,7 @@
  
  .contenedor-texto-cliente{
      width: 100%;
+     height: 100%;
      text-align: center;
      padding: 40px;
      font-weight: 400;
@@ -55,7 +56,7 @@
  
  .descripcion-cliente{
      width: 100%;
-     font-size: 18px;
+     font-size: 1.2rem;
      
      text-align: justify;
      padding: 20px;

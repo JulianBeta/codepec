@@ -12,9 +12,8 @@ export const Equipo = () => {
     <div className='contenedorpagina'>
       
       <div className='contenedor-principal'>
-       <h2 className='tituloequipo'>EQUIPO</h2>
-        <h1 className='textotituloequipo'></h1>CODEPEC S.A.S. cuenta con un equipo profesional especializado para atender todas la necesidades de nuestros clientes 
-       <br></br>
+       <h4 className='tituloequipo'>EQUIPO</h4>
+        {/* <h2 className='textotituloequipo'>CODEPEC S.A.S. cuenta con un equipo profesional especializado para atender todas la necesidades de nuestros clientes </h2> */}
         <EquipoComponent
           imagen='alejandroa'
           nombre='Alejandro Alvarez S.'

@@ -7,159 +7,83 @@ export const Establecimientos = () => {
   return (
 
     <div className='contenedorpagina'>
-      <div ><h1 className='titulo1'>SERVICIOS A ESTABLECIMIENTOS DE COMERCIO</h1></div>
-    <div className='contenedorpagina'> <div><h1>SERVICIOS A ESTABLECIMIENTOS DE COMERCIO</h1></div>
-    
-    <div> <h2>ASESORÍA, ACOMPAÑAMIENTO Y REPRESENTACIÓN ANTE INSPECTORES DE POLICÍA POR MEDIDAS CORRECTIVAS</h2>
-<h4>
-
-Acciones específicas:
-
-<ul>
-<li>Elaboración, radicación y seguimiento de escritos de objeción de medidas correctivas.</li>
-<li>Presentación de acciones de tutela por sellamientos ilegales.</li>
-<li>	Representación legal y acompañamiento en audiencias ante inspectores de policía.</li></ul>
-<h3>Ventajas para el cliente:</h3>
-<ul><li>Protección ante sanciones arbitrarias o desproporcionadas.</li>
-<li>Defensa legal efectiva para evitar el cierre del establecimiento.</li>
-<li>Restablecimiento de la actividad comercial cuando ha sido afectada por decisiones administrativas.</li></ul>
-</h4></div>
-
-
-<div> <h2>VERIFICACIÓN JURÍDICA DE CUMPLIMIENTO DE REQUISITOS PARA EL DESARROLLO DE ACTIVIDAD ECONÓMICA</h2>
-<h4>
-
-Acciones específicas:
-
-<ul>
-  
-<li>Revisión y validación de documentos exigidos por las autoridades.</li>
-<li>		Asesoría y acompañamiento para garantizar el cumplimiento de todos los requisitos previstos el Artículo 87 del Código Nacional de Seguridad y Convivencia Ciudadana y demás normatividad aplicable.</li></ul>
-</h4>
-<h3>Ventajas para el cliente:</h3>
-<h4>
-<ul>
-  <li>Prevención de sanciones y cierre de negocios.</li>
-<li>	Cumplimiento legal garantizado para evitar conflictos con las autoridades.</li>
-</ul>
-</h4></div>
-
-<div> <h2>ASESORÍA EN CONTRATACIÓN LABORAL</h2>
-<h4>
-
-Acciones específicas:
-
-<ul>
-  
-<li>	Elaboración y revisión de contratos laborales.</li>
-<li>Cumplimiento normativo en términos de horas extras, turnos y prestaciones.</li>
-<li>Asesoría en medidas disciplinarias y terminación de contratos.</li></ul>
-
-<h3>Ventajas para el cliente:</h3>
-<ul>
-  <li>  Reducción de riesgos legales y demandas laborales.</li>
-<li>Optimización de la gestión de recursos humanos.</li>
-
-</ul>
-</h4></div>
-
-<div> <h2>ESTRUCTURACIÓN DE CONTRATOS CON PROVEEDORES Y TERCEROS</h2>
-<h4>
-
-Acciones específicas:
-
-
-      <div > <h2 className='titulo2'>ASESORÍA, ACOMPAÑAMIENTO Y REPRESENTACIÓN ANTE INSPECTORES DE POLICÍA POR MEDIDAS CORRECTIVAS</h2>
-      </div>
-      <div > 
-        <h3 className='titulo3'> Acciones específicas:
-        </h3></div>
-    
-      <div > 
-        <ul className='lista'>
-          <li>- Elaboración, radicación y seguimiento de escritos de objeción a medidas correctivas.</li>
-          <li>- Presentación de acciones de tutela por sellamientos ilegales.</li>
-          <li>-	Representación legal y acompañamiento en audiencias ante inspectores de policía.</li></ul>
-      </div>
-      <div ><h3 className='titulo3'>Ventajas para el cliente:</h3></div>
+      <br></br><br></br><div ><h4 className='titulo1'>SERVICIOS A ESTABLECIMIENTOS DE COMERCIO</h4></div>
       <div >
-        <ul className='lista'>
-          <li>- Protección ante sanciones arbitrarias o desproporcionadas.</li>
-          <li>- Defensa legal efectiva para evitar el cierre del establecimiento.</li>
-          <li>- Restablecimiento de la actividad comercial cuando ha sido afectada por decisiones administrativas.</li></ul>
-      </div>
-      <div > <h2 className='titulo2'>VERIFICACIÓN JURÍDICA DE CUMPLIMIENTO DE REQUISITOS PARA EL DESARROLLO DE ACTIVIDAD ECONÓMICA</h2>
-      </div>
-      <div ><h3 className='titulo3'>
-          Acciones específicas:</h3>
-      </div>
-      <div> <ul className='lista'>
-            <li>- Revisión y validación de documentos exigidos por las autoridades.</li>
-            <li>- Asesoría y acompañamiento para garantizar el cumplimiento de todos los requisitos previstos el Artículo 87 del Código Nacional de Seguridad y Convivencia Ciudadana y demás normatividad aplicable.</li></ul>
-      </div>
-       <div> <h3 className='titulo3'>Ventajas para el cliente:</h3></div>
-        <div>
-          <ul className='lista'>
-            <li>- Prevención de sanciones y cierre de negocios.</li>
-            <li>-	Cumplimiento legal garantizado para evitar conflictos con las autoridades.</li>
-          </ul>
-        </div>
+         <br></br><br></br>
+        <div> <h1>ASESORÍA, ACOMPAÑAMIENTO Y REPRESENTACIÓN ANTE INSPECTORES DE POLICÍA POR MEDIDAS CORRECTIVAS</h1>
 
-      <div> <h2 className='titulo2'>ASESORÍA EN CONTRATACIÓN LABORAL</h2></div>
-        <div>
+          <br></br>
+          <h2>Acciones específicas:</h2>
+          <br></br>
 
-          Acciones específicas:
-        </div>
-         <div> <ul className='lista'>
+          <h4>- Elaboración, radicación y seguimiento de escritos de objeción de medidas correctivas.</h4><br></br>
+          <h4>- Presentación de acciones de tutela por sellamientos ilegales.</h4><br></br>
+          <h4>- Representación legal y acompañamiento en audiencias ante inspectores de policía.</h4><br></br>
 
-            <li>-	Elaboración y revisión de contratos laborales.</li>
-            <li>- Cumplimiento normativo en términos de horas extras, turnos y prestaciones.</li>
-            <li>- Asesoría en medidas disciplinarias y terminación de contratos.</li></ul></div>
-
-          <div><h3 className='titulo3'>Ventajas para el cliente:</h3></div>
-          <div><ul className='lista'>
-            <li>- Reducción de riesgos legales y demandas laborales.</li>
-            <li>- Optimización de la gestión de recursos humanos.</li>
-
-          </ul></div>
-
-      <div> <h2 className='titulo2'>ESTRUCTURACIÓN DE CONTRATOS CON PROVEEDORES Y TERCEROS</h2></div>
-        <div><h3 className='titulo3'>
-          Acciones específicas:
-        </h3></div>
-          <div><ul className='lista'>
-
-            <li>- Redacción y negociación de contratos comerciales.</li>
-            <li>- Asesoría en contratos de arrendamiento, suministro y prestación de servicios.</li></ul></div>
-          <div><h3 className='titulo3'>Ventajas para el cliente:</h3>
-          <div>
-          <ul className='lista'>
-            <li>- Protección jurídica en acuerdos comerciales.</li>
-            <li>- Minimización de riesgos de incumplimiento o fraudes.</li>
-          </ul></div>
+          <h2>Ventajas para el cliente:</h2>
+<br></br>
+          <h4>- Protección ante sanciones arbitrarias o desproporcionadas.</h4><br></br>
+          <h4>- Defensa legal efectiva para evitar el cierre del establecimiento.</h4><br></br>
+          <h4>- Restablecimiento de la actividad comercial cuando ha sido afectada por decisiones administrativas.</h4><br></br>
+<br></br>
         </div>
 
 
-      <div> <h2 className='titulo2'>REPRESENTACIÓN EN PROCESOS POR COMPETENCIA DESLEAL Y PROPIEDAD INTELECTUAL</h2>
-      </div>
-       <div><h3 className='titulo3'>
-          Acciones específicas:
-        </h3></div>
-        <div>
-          <ul className='lista'>
-            <li>- Defensa ante prácticas de competencia desleal.</li>
-            <li>- Protección y registro de derechos de propiedad intelectual.</li>
-            <li>- Representación en acciones judiciales y extrajudiciales.</li></ul> </div>
-         <div> <h3 className='titulo3'>Ventajas para el cliente:</h3></div>
-          <div><ul className='lista'><li>Protección ante sanciones arbitrarias o desproporcionadas.</li>
-            <li>- Protección de la marca y activos intangibles.</li>
-            <li>- Prevención de disputas comerciales.</li>
-            <li>- Recuperación de daños por infracciones.</li>
+        <div> <h1>VERIFICACIÓN JURÍDICA DE CUMPLIMIENTO DE REQUISITOS PARA EL DESARROLLO DE ACTIVIDAD ECONÓMICA</h1>
+        <br></br>
+        <h2>Acciones específicas:</h2>
+<br></br>
+        <h4>- Revisión y validación de documentos exigidos por las autoridades.</h4><br></br>
+        <h4>- Asesoría y acompañamiento para garantizar el cumplimiento de todos los requisitos previstos el Artículo 87 del Código Nacional de Seguridad y Convivencia Ciudadana y demás normatividad aplicable.</h4>  
+<br></br>
+        <h2>Ventajas para el cliente:</h2>
+<br></br>
+        <h4>- Prevención de sanciones y cierre de negocios.</h4><br></br>
+        <h4>- Cumplimiento legal garantizado para evitar conflictos con las autoridades.</h4><br></br><br></br>
+</div>
 
-          </ul></div>
-          <GoToTop />
-    </div>
-  
+        <div> <h1>ASESORÍA EN CONTRATACIÓN LABORAL</h1></div>
+
+<br></br>
+        <h2>Acciones específicas:</h2>
+
+<br></br>
+        <h4>- Elaboración y revisión de contratos laborales.</h4><br></br>
+        <h4>- Cumplimiento normativo en términos de horas extras, turnos y prestaciones.</h4><br></br>
+        <h4>- Asesoría en medidas disciplinarias y terminación de contratos.</h4><br></br>
+
+        <h2>Ventajas para el cliente:</h2>
+<br></br>
+        <h4>- Reducción de riesgos legales y demandas laborales.</h4><br></br>
+        <h4>- Optimización de la gestión de recursos humanos.</h4><br></br><br></br>
+
+
+      </div>
+
+     
+
+      <div> <h1>REPRESENTACIÓN EN PROCESOS POR COMPETENCIA DESLEAL Y PROPIEDAD INTELECTUAL</h1><br></br>
+      
+      <h2>
+        Acciones específicas:
+      </h2><br></br>
+
+      <h4>- Defensa ante prácticas de competencia desleal.</h4><br></br>
+      <h4>- Protección y registro de derechos de propiedad intelectual.</h4><br></br>
+      <h4>- Representación en acciones judiciales y extrajudiciales.</h4><br></br>
+
+      <h2>Ventajas para el cliente:</h2><br></br>
+      <h4>Protección ante sanciones arbitrarias o desproporcionadas.</h4><br></br>
+      <h4>- Protección de la marca y activos intangibles.</h4><br></br>
+      <h4>- Prevención de disputas comerciales.</h4><br></br>
+      <h4>- Recuperación de daños por infracciones.</h4><br></br>
+
+
+</div>
+      <GoToTop />
+
+    </div >
+
   )
 
 }
