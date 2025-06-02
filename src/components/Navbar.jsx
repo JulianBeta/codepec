@@ -29,7 +29,7 @@ export const Navbar = () => {
                 <Link className="titulonavbar" to="/">INICIO</Link>
                 <Link className="titulonavbar" to="/clientes">NUESTROS CLIENTES</Link>
                 <Link className="titulonavbar"to="/equipo">NUESTRO EQUIPO</Link>
-                <Link className="titulonavbar" to="/serviciosestablecimientos">SERVICIOS ESTABLECIMIENTOS DE COMERCIO</Link>
+                <Link className="titulonavbar" to="/serviciosestablecimientos">ESTABLECIMIENTOS DE COMERCIO</Link>
                 <Link className="titulonavbar" to="/serviciosurbanismo">URBANISMO</Link>
                 
             </nav>
