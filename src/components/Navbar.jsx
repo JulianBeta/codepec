@@ -10,9 +10,9 @@ export const Navbar = () => {
         setIsOpen(!isOpen);
     };
 
-    const closemenu = () => {
-        setIsOpen(!menuOpen);
-    }
+    // const closemenu = () => {
+    //     setIsOpen(!menuOpen);
+    // }
     
     return (
         <header>

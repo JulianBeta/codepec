@@ -16,23 +16,23 @@ export const Equipo = () => {
         {/* <h2 className='textotituloequipo'>CODEPEC S.A.S. cuenta con un equipo profesional especializado para atender todas la necesidades de nuestros clientes </h2> */}
         <EquipoComponent
           imagen='alejandroa'
-          nombre='Alejandro Alvarez S.'
+          nombre='Alejandro Alvarez'
           descripcion = 'Coordinador Jurídico - Maestría en Derecho Mercantil y Corporativo, especialización en Derecho Procesal, especilización en Derecho Administrativo'/>
         <EquipoComponent
           imagen = 'marial'
-          nombre = 'María López J.'
+          nombre = 'María López'
           descripcion = 'Lider Procesos Policivos - Especialización en Derecho Policivo, especialización en Derecho Público'/>  
           <EquipoComponent
           imagen='camilos'
-          nombre='Camilo Sánchez B.'
+          nombre='Camilo Sánchez'
           descripcion = 'Profesional Jurídico en Urbanismo - Maestría en Planeación Urbana y Regional'/>
          <EquipoComponent
          imagen = 'santiagor'
-         nombre = 'Santiago Rodriguez B.'
+         nombre = 'Santiago Rodriguez'
           descripcion = 'Profesional Jurídico para Establecimientos de Comencio - Especialización en Derecho Comercial'/>
            <EquipoComponent
           imagen = 'camilar'
-          nombre = 'Camila Rodríguez T.'
+          nombre = 'Camila Rodríguez'
           descripcion = 'Abogada Junior'/>
         
        </div>
