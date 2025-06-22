@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import './../stylesheets/Header.css'
 import { useState } from 'react'
+import logonavbar from '../assets/logoCodepec72px.png'
 
 export const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -26,6 +27,7 @@ export const Navbar = () => {
                         </div> */}
                     </>
                 )}
+                <Link to="/"><img src={logonavbar} alt="icono"/></Link>
                 <Link className="titulonavbar" to="/">INICIO</Link>
                 <Link className="titulonavbar" to="/clientes">NUESTROS CLIENTES</Link>
                 <Link className="titulonavbar"to="/equipo">NUESTRO EQUIPO</Link>
