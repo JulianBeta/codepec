@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './../stylesheets/Footer.css';
+import logofooter from './../assets/logoCodepec72px.png'
 
 const Footer = () => {
     return (
@@ -9,7 +10,7 @@ const Footer = () => {
                 <div className="footer-section">
                     <div className="footer-logo">
                         {/* Replace with actual logo */}
-                        <img src="/logo.png" alt="Company Logo" />
+                        <img src= {logofooter} />
                     </div>
                 </div>
 

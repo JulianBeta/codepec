@@ -71,3 +71,54 @@ b {
     font-size: 1.75rem;
    
 }
+
+
+
+@media all and (max-width: 720px) {
+    .contenedorservicios {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.cuadroserviciosinicio {
+    margin: 5%;
+    width: 20%;
+}
+
+.imagenesinicio {
+    border: solid 2px #170fb5;
+    border-radius: 8%;
+    width: 30rem;
+}
+
+.textoserviciosinicio {
+    justify-items: center;
+    font-size: 1.5rem;
+    color: #170fb5;
+
+}
+.titulossecundariosinicio {
+
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: bolder;
+    margin-bottom: 2%;
+}
+
+.textoquienesyporque {
+    text-align: justify;
+    width: 100%;
+    justify-items: center;
+    font-size: 1.2rem;
+    line-height: 3rem;
+}
+
+
+b {
+    font-size: 1.2rem;
+   
+}
+
+
+}
