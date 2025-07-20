@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './../stylesheets/Footer.css';
 import logofooter from './../assets/logoCodepec72px.png'
+import logoinstagram from './../assets/logo-insta.jpg'
 
 const Footer = () => {
     return (
@@ -27,20 +28,14 @@ const Footer = () => {
                 <div className="footer-section">
                     <div className="contact-info">
                         <h3>Contacto</h3>
-                        <p>Tel: (123) 456-7890</p>
-                        <p>Email: info@empresa.com</p>
-                        <p>Dirección: Calle Principal 123</p>
+                        <p>Tel: (+57) 318-9409038</p>
+                        {/* <p>Email: info@empresa.com</p> */}
+                        <p>Dirección: Calle 67 No. 11 72 Oficina 203</p>  
+                        <div>  < a  href="https://www.instagram.com/codepec_sas?igsh=ODRjNDRibnBxZTZ2" target='_blank' ><img src={logoinstagram}></img></a>
+                    </div>
                     </div>
                 </div>
 
-                <div className="footer-section">
-                    <div className="social-media">
-                        <a href="/" aria-label="Facebook"><i className="fab fa-facebook"></i></a>
-                        <a href="/" aria-label="LinkedIn"><i className="fab fa-linkedin"></i></a>
-                        <a href="/" aria-label="Twitter"><i className="fab fa-twitter"></i></a>
-                        <a href="/" aria-label="Instagram"><i className="fab fa-instagram"></i></a>
-                    </div>
-                </div>
 
                 <div className="copyright">
                     <p>© 2023 Empresa. Todos los derechos reservados.</p>

@@ -1,0 +1,39 @@
+.whatsapp {
+     position: fixed;
+        bottom: 10%;
+        right: 0;
+        overflow: auto;
+        border: transparent;
+        z-index: 2000;
+        background-color: transparent;
+}
+
+.imagenwa { 
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Prevent distortion */
+    max-width: 400px; /* Optional: prevent excessive enlargement */
+    margin: 0 auto; /* Center the image */}
+
+        @media all and (max-width: 720px) {
+            .whatsapp {
+      height: 10%;
+            width: 20%;
+}
+
+
+        }
+
+
+        @media (min-width: 720px) and (max-width: 1020px) {
+   
+
+    
+
+    .imagenwa {
+        width: 100%;
+        height: auto; /* Maintain aspect ratio */
+        object-fit: cover; /* Prevent distortion */
+        max-width: 400px; /* Optional: prevent excessive enlargement */
+        margin: 0 auto; /* Center the image */
+    }}

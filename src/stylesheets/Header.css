@@ -91,13 +91,14 @@ header {
 
     .menu.open {
         display: flex;
-        margin-left: 0;
+        right:0%;
     }
 
     .hamburger {
 
         display: flex;
         margin: 4%;
+        
     }
 
     .titulonavbar {

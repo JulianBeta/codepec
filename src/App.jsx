@@ -9,6 +9,7 @@ import Urbanismo from './pages/Urbanismo'
 import logofondo from './assets/establecimiento.jpg'
 import Footer from './components/Footer'
 import Navbar from './components/Navbar.jsx'
+import LogoWhatsapp from './assets/imagengrandeWS.jpg'
 
 export const App = () => {
   return (
@@ -31,6 +32,7 @@ export const App = () => {
         </Routes>
         <Footer />
 
+ <button  className='whatsapp'><a target='_blank' href='https://api.whatsapp.com/send/?phone=573189409038'> <img className='imagenwa' src={LogoWhatsapp} alt="wapp" /> </a></button>
 
       </Router>
 

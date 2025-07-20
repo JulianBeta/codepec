@@ -51,7 +51,7 @@ export const Clientes = () => {
           descripcion = 'Natura Construcciones SAS trabaja desde 1998 en proyectos inmobiliarios de alto impacto, creando espacios donde el bienestar y la calidad de vida son la base.'/>       
         <ClienteComponent
           imagen = 'acees'
-          nombre = 'Aceess Abogados'
+          nombre = 'Acees Abogados'
           descripcion = 'Acees Abogados - Abogacía para empresas y negocios, es un equipo de abogados con amplia experiencia en el asesoramiento legal a empresas. Nos especializamos en derecho laboral, comercial y de tierras.'/>
         <ClienteComponent
           imagen = 'apep'

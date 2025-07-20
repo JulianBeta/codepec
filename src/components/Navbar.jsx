@@ -22,7 +22,7 @@ export const Navbar = () => {
             {isOpen && (
                     <>
                         <span className="close-btn" onClick={toggleMenu}><b>X</b></span>
-                        {/* <div className="logo">
+                        {/* <div className="logona">
                             <a href="/"><img src={logo} alt="Logo" /></a>
                         </div> */}
                     </>
