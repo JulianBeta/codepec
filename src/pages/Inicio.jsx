@@ -1,10 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import '../stylesheets/Inicio.css'
-import imagenciudad from '../assets/ciudad.jpg'
-import imagenestablecimiento from '../assets/establecimiento.jpg'
+import imagenciudad from '../../public/assets//ciudad.jpg'
+import imagenestablecimiento from '../../public/assets/establecimiento.jpg'
 import Slider2 from '../components/Carrusel2'
-import logofondo from './../assets/Logopequeño.png'
+import logofondo from '../../public/assets/Logopequeño.png'
 
 
 

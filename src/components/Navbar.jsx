@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import './../stylesheets/Header.css'
 import { useState } from 'react'
-import logonavbar from '../assets/logoCodepec72px.png'
+import logonavbar from '../../public/assets/logoCodepec72px.png'
 
 export const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);

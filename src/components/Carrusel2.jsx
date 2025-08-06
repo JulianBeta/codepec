@@ -6,13 +6,13 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import '../stylesheets/Carrusel2.css'
 import { EffectCoverflow, Pagination, Navigation, Autoplay } from 'swiper/modules';
-import slide_image_1 from './../assets/logoacees.jfif';
-import slide_image_2 from './../assets/logogrub.jfif';
-import slide_image_3 from './../assets/logomass.jfif';
-import slide_image_4 from './../assets/logomelomarket.jfif';
-import slide_image_5 from './../assets/logonaturasas.jfif';
-import slide_image_6 from './../assets/logonextdoor.jfif';
-import slide_image_7 from './../assets/logoreeds.jfif';
+import slide_image_1 from '../../public/assets/logoacees.jfif';
+import slide_image_2 from '../../public/assets/logogrub.jfif';
+import slide_image_3 from '../../public/assets/logomass.jfif';
+import slide_image_4 from '../../public/assets/logomelomarket.jfif';
+import slide_image_5 from '../../public/assets/logonaturasas.jfif';
+import slide_image_6 from '../../public/assets/logonextdoor.jfif';
+import slide_image_7 from '../../public/assets/logoreeds.jfif';
 // import slide_image_8 from '../../assets/logosconcursos/logoterritorial2021.jfif';
 import { Link } from 'react-router-dom';
 

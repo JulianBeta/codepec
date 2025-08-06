@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './../stylesheets/Footer.css';
-import logofooter from './../assets/logoCodepec72px.png'
-import logoinstagram from './../assets/logo-insta.jpg'
+import logofooter from '../../public/assets/logoCodepec72px.png'
+import logoinstagram from '../../public/assets/logo-insta.jpg'
 
 const Footer = () => {
     return (
