@@ -8,7 +8,7 @@ function EquipoComponent(props) {
             <div className = 'contenedor-equipo'>
                 <img
                   className='imagen-equipo'
-                  src={`../../public/assets/${props.imagen}.JPG`}
+                  src={`../../public/assets/${props.imagen}.jpg`}
                   alt="EquipoCOPEPEC"/>
             <div className='contenedor-texto-equipo'>
                 <p className='nombre-equipo'>

@@ -8,7 +8,7 @@ function ClienteComponent(props) {
             <div className = 'contenedor-cliente'>
                 <img
                   className='imagen-cliente'
-                  src={`../../public/assets/logo${props.imagen}.JFIF`}
+                  src={`/assets/logo${props.imagen}.jfif`}
                   alt="Logo Reeds"/>
             <div className='contenedor-texto-cliente'>
                 <b><p className='nombre-cliente'>
