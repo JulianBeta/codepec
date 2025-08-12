@@ -38,19 +38,19 @@ export const Inicio = () => {
 
                     <p className='textoquienesyporque'>
 
-                        -Experiencia y especialización: Nuestro equipo cuenta con amplia trayectoria en la defensa de comerciantes y constructoras ante autoridades administrativas y de policía.<br></br>
+                        -Experiencia y especialización: Nuestro equipo cuenta con amplia trayectoria en la defensa de comerciantes y constructoras ante autoridades administrativas y de policía.<br></br><br></br>
 
-                        -Asesoría preventiva: No solo actuamos ante problemas, sino que ayudamos a prevenirlos con orientación legal proactiva, reduciendo riesgos futuros.<br></br>
+                        -Asesoría preventiva: No solo actuamos ante problemas, sino que ayudamos a prevenirlos con orientación legal proactiva, reduciendo riesgos futuros.<br></br><br></br>
 
-                        -Enfoque multidisciplinario: Nuestro equipo combina conocimientos en derecho administrativo, comercial y urbanístico para ofrecer soluciones integrales.<br></br>
+                        -Enfoque multidisciplinario: Nuestro equipo combina conocimientos en derecho administrativo, comercial y urbanístico para ofrecer soluciones integrales.<br></br><br></br>
 
-                        -Accesibilidad y cercanía: Mantenemos una comunicación constante y transparente con nuestros clientes, asegurando que estén informados en cada etapa del proceso.<br></br>
+                        -Accesibilidad y cercanía: Mantenemos una comunicación constante y transparente con nuestros clientes, asegurando que estén informados en cada etapa del proceso.<br></br><br></br>
 
-                        -Compromiso ético: Operamos con altos estándares de honestidad y profesionalismo, priorizando siempre los intereses de nuestros clientes.<br></br>
+                        -Compromiso ético: Operamos con altos estándares de honestidad y profesionalismo, priorizando siempre los intereses de nuestros clientes.<br></br><br></br>
 
-                        -Flexibilidad en soluciones: Adaptamos nuestras estrategias no solo a las necesidades legales, sino también a las posibilidades económicas de cada cliente.<br></br>
+                        -Flexibilidad en soluciones: Adaptamos nuestras estrategias no solo a las necesidades legales, sino también a las posibilidades económicas de cada cliente.<br></br><br></br>
 
-                        -Red de aliados estratégicos: Trabajamos en colaboración con expertos en diferentes áreas para fortalecer tu defensa cuando sea necesario.<br></br>
+                        -Red de aliados estratégicos: Trabajamos en colaboración con expertos en diferentes áreas para fortalecer tu defensa cuando sea necesario.<br></br><br></br>
 
                         -Respuesta ágil: Entendemos la urgencia en ciertos casos, por lo que actuamos con celeridad para minimizar impactos negativos en tu negocio.<br></br><br></br>
 
