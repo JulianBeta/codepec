@@ -52,7 +52,7 @@ export const Inicio = () => {
 
                         <b> -Red de aliados estratégicos: </b> Trabajamos en colaboración con expertos en diferentes áreas para fortalecer tu defensa cuando sea necesario.<br></br><br></br>
 
-                        <b> -Respuesta ágil: </b> Entendemos la urgencia en ciertos casos, por lo que actuamos con celeridad para minimizar impactos negativos en tu negocio.<br></br><br></br><br></br><br></br>
+                        <b> -Respuesta ágil: </b> Entendemos la urgencia en ciertos casos, por lo que actuamos con celeridad para minimizar impactos negativos en tu negocio.<br></br><br></br><br></br>
 
                         <b>En  CODEPEC S.A.S. defendemos tus derechos y te acompañamos con experiencia, experticia, prevención y resultados reales. <br></br><br></br>Confía en un equipo que combina especialización, trato personalizado y compromiso con tu éxito legal y empresarial.</b>
 
