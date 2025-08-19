@@ -35,8 +35,9 @@
 
 .textoserviciosinicio {
     justify-items: center;
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: #170fb5;
+    line-height: 3.5rem;
 
 }
 
@@ -54,7 +55,7 @@
 .titulossecundariosinicio {
 
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     font-weight: bolder;
     margin-bottom: 2%;
 }
@@ -63,13 +64,14 @@
     text-align: justify;
     width: 100%;
     justify-items: center;
-    font-size: 2rem;
+    font-size: 2.5rem;
   
     line-height: 3rem;
 }
 
 b {
-    font-size: 1.75rem;
+    font-size: 2.5rem;
+    font-weight: bold;
    
 }
 
@@ -123,8 +125,12 @@ b {
     line-height: 3rem;
 }
 
+.seccioncarrusel {
+    width: auto;
+}
 
 b {
+    font-weight: bolder;
     font-size: 1.2rem;
    
 }
