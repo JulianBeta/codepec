@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './../stylesheets/Footer.css';
 import logofooter from './../assets/logoCodepec72px.png'
-import logoinstagram from './../assets/logo-insta.jpg'
+import logoinstagram from './../assets/logo-instag.png'
 
 const Footer = () => {
     return (
@@ -38,7 +38,7 @@ const Footer = () => {
 
 
                 <div className="copyright">
-                    <p>© 2023 Empresa. Todos los derechos reservados.</p>
+                    <p>© 2025 CODEPEC S.A.S. Todos los derechos reservados.</p>
                     <p>Aviso Legal | Política de Privacidad</p>
                 </div>
             </div>
