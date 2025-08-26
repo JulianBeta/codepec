@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './../stylesheets/Footer.css';
-import logofooter from './../assets/logoCodepec72px.png'
-import logoinstagram from './../assets/logo-instag.png'
+import logofooter from '../assets/logoCodepec72px.png'
+import logoinstagram from '../assets/logo-instag.png'
 
 const Footer = () => {
     return (
@@ -18,7 +18,7 @@ const Footer = () => {
                 <div className="footer-section">
                     <nav className="footer-links">
                         <Link to="/">Inicio</Link>
-                        {/* <Link to="/clientes">Clientes</Link> */}
+                        <Link to="/clientes">Clientes</Link>
                         <Link to="/equipo">Equipo</Link>
                         <Link to="/serviciosestablecimientos">Establecimientos</Link>
                         <Link to="/serviciosurbanismo">Urbanismo</Link>
