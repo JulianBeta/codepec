@@ -45,6 +45,13 @@
 
   
 @media all and (max-width: 480px) {
+.contenedorcarrusel {
+  float: inline-end;  
+  align-self: center;
+  width: 100%;
+}
+
+
   .swiper {
     width: 100%;
     padding-top: 10px;
