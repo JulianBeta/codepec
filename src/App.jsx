@@ -6,10 +6,9 @@ import Clientes from './pages/Clientes'
 import Inicio from './pages/Inicio'
 import Establecimientos from './pages/Establecimientos'
 import Urbanismo from './pages/Urbanismo'
-import logofondo from '../public/assets/establecimiento.jpg'
 import Footer from './components/Footer'
 import Navbar from './components/Navbar.jsx'
-import LogoWhatsapp from '../public/assets/imagengrandeWS.jpg'
+import LogoWhatsapp from './assets/logo-whatsapp.png'
 
 export const App = () => {
   return (
@@ -25,7 +24,7 @@ export const App = () => {
           <Route path='/serviciosurbanismo' element= {<Urbanismo/>}/>
           <Route path='/serviciosestablecimientos' element= {<Establecimientos/>}/>
           <Route path='/clientes' element= {<Clientes/>}/>
-          {/* <Route path='/equipo' element= {<Equipo/>}/> */}
+          <Route path='/equipo' element= {<Equipo/>}/>
 
 
 
