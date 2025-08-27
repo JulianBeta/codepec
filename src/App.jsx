@@ -6,10 +6,8 @@ import Clientes from './pages/Clientes'
 import Inicio from './pages/Inicio'
 import Establecimientos from './pages/Establecimientos'
 import Urbanismo from './pages/Urbanismo'
-import logofondo from './assets/establecimiento.jpg'
 import Footer from './components/Footer'
 import Navbar from './components/Navbar.jsx'
-//import LogoWhatsapp from './assets/imagengrandeWS.jpg'
 import LogoWhatsapp from './assets/logo-whatsapp.png'
 
 export const App = () => {

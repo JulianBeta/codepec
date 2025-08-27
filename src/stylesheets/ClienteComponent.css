@@ -57,7 +57,7 @@
  
  .descripcion-cliente{
      width: 100%;
-     font-size: 1.2rem;
+     font-size: 1.8rem;
     
      text-align: justify;
      padding: 20px;
@@ -77,6 +77,8 @@
      width: 150%;
      height: 50%;
      margin: 0px;
+     margin-right: 40px;
+     margin-left: 15px;
      display: flex;
      flex-direction: column;
      color: whitesmoke;
@@ -88,6 +90,7 @@
 
     .imagen-cliente{
      height: 50%;
+     margin-left: 0px;
      width: 100%;
      flex-wrap: wrap;
      align-self: center;
