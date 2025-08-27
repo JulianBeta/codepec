@@ -34,7 +34,7 @@ export const Navbar = () => {
                 <Link className="titulonavbar" to="/serviciosestablecimientos">ESTABLECIMIENTOS DE COMERCIO</Link>
                 <Link className="titulonavbar" to="/serviciosurbanismo">URBANISMO</Link>
                 
-            </nav><div> <img src={logonavbar} alt="icono"/></div>
+            </nav><div> <img className='logobarracel' src={logonavbar} alt="icono"/></div>
             <div className="hamburger" onClick={toggleMenu}>
                 <div className="bar"></div>
                 <div className="bar"></div>
