@@ -19,7 +19,7 @@ const Footer = () => {
                     <nav className="footer-links">
                         <Link to="/">Inicio</Link>
                         <Link to="/clientes">Clientes</Link>
-                        <Link to="/equipo">Equipo</Link>
+                        {/* <Link to="/equipo">Equipo</Link> */}
                         <Link to="/serviciosestablecimientos">Establecimientos</Link>
                         <Link to="/serviciosurbanismo">Urbanismo</Link>
                     </nav>
