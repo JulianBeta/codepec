@@ -83,3 +83,29 @@
   display: block;
 }
 }
+
+@media all and (max-width: 720px) {
+   .contenedorpagina{
+  position: relative;
+  height: 400px;
+  overflow-y: auto;
+  
+  margin-bottom: 1px;
+}
+
+.titulo1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 1%;
+    margin-bottom: 2%;
+}
+
+.contenedormenus {
+ display: flex;
+ flex-direction: column;  
+}
+
+
+
+}

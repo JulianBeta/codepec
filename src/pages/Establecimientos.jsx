@@ -8,7 +8,7 @@ export const Establecimientos = () => {
 
                 <div className='contenedorpagina'>
                         <br></br><br></br><div ><h4 className='titulo1'>SERVICIOS A ESTABLECIMIENTOS DE COMERCIO</h4></div>
-                        <div >
+                        <div className='contenedormenus' >
                                 <br></br>
                                 <div className="dropdown">
                                         <button className="dropdown-button">
