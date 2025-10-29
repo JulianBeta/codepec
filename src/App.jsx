@@ -13,31 +13,31 @@ import LogoWhatsapp from './assets/logo-whatsapp.png'
 export const App = () => {
   return (
 
+      <Router>
+        {/* Fixed header at top */}
+        <Navbar />
 
-      <Router  >
+        {/* Sticky layout: main grows to push footer to bottom */}
+        <div className="app-shell">
+          <main className="page-content">
+            <Routes>
+              <Route path='/' element={<Inicio />} />
+              <Route path='/serviciosurbanismo' element={<Urbanismo />} />
+              <Route path='/serviciosestablecimientos' element={<Establecimientos />} />
+              <Route path='/clientes' element={<Clientes />} />
+              <Route path='/equipo' element={<Equipo />} />
+            </Routes>
+          </main>
 
-        <Navbar/>
-        
-        <Routes>
+          <Footer />
 
-          <Route path='/' element= {<Inicio/>}/>
-          <Route path='/serviciosurbanismo' element= {<Urbanismo/>}/>
-          <Route path='/serviciosestablecimientos' element= {<Establecimientos/>}/>
-          <Route path='/clientes' element= {<Clientes/>}/>
-          <Route path='/equipo' element= {<Equipo/>}/>
-
-
-
-        </Routes>
-        <Footer />
-
- <button  className='whatsapp'><a target='_blank' href='https://api.whatsapp.com/send/?phone=573189409038'> <img className='imagenwa' src={LogoWhatsapp} alt="wapp" /> </a></button>
-
+          <button className='whatsapp'>
+            <a target='_blank' href='https://api.whatsapp.com/send/?phone=573189409038'>
+              <img className='imagenwa' src={LogoWhatsapp} alt="wapp" />
+            </a>
+          </button>
+        </div>
       </Router>
-
-
-
-
   )
 }
 

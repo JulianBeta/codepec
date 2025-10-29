@@ -33,16 +33,15 @@ header {
 
 .menu {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-grow: 1;
+    justify-content: center; /* centrado horizontal */
+    align-items: center;     /* centrado vertical */
+    gap: 18px;               /* separación consistente entre ítems */
     margin-left: 20px;
 }
 
 .menu a {
-    flex-grow: 1;
     text-decoration: none;
-    color: whitesmoke    ;
+    color: whitesmoke;
     font-weight: bolder;
     font-size: 1.5rem;
     text-align: center;
@@ -57,14 +56,21 @@ header {
     transform: scale(1.1); 
 }
 
-.hamburger {
+.hamburger-btn {
     display: none;
     flex-direction: column;
-    gap: 5px;
+    gap: 6px;
     cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    width: 48px; /* touch target mínimo */
+    height: 48px; /* touch target mínimo */
+    background: transparent;
+    border: none;
+    color: whitesmoke;
 }
 
-.bar {
+.hamburger-btn .bar {
     width: 30px;
     height: 5px;
     background-color: whitesmoke;
@@ -80,14 +86,19 @@ header {
         flex-direction: column;
         position: fixed;
         top: 0;
-        right: 0;
-        width: 50%;
-       font-size: small;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
         background-color: #02113A;
         align-items: center;
         justify-content: center;
-        z-index: 1000;
-        padding: 80px 20px 20px;
+        gap: 18px; /* separación consistente entre ítems */
+        z-index: 1001; /* por encima del overlay */
+        padding: 80px 24px 24px;
+        padding-left: 0; /* eliminar espacio izquierdo innecesario */
+        transform: translateY(-100%);
+        transition: transform 0.3s ease, opacity 0.3s ease;
+        opacity: 0;
     }
 
     .espacio {
@@ -95,27 +106,29 @@ header {
     }
 
     .logobarracel {
-        height: 40%;
-        width: 40%;
-    margin-left: 10%;}
+        width: clamp(48px, 24vw, 180px);
+        max-width: 180px;
+        height: auto;
+        padding-left: var(--nav-side-padding);
+        margin-left: 0;
+        transition: width 0.3s ease;
+        object-fit: contain;
+    }
         
     
 
     .menu.open {
         display: flex;
-        right:0%;
+        transform: translateY(0);
+        opacity: 1;
     }
 
-    .hamburger {
-
+    .hamburger-btn {
         display: flex;
         margin: 4%;
-        
     }
 
-    .titulonavbar {
-        width: 20%;
-    }
+    .titulonavbar { width: auto; }
 
     .titulonavbarinicio {
         width: 20%;
@@ -124,12 +137,15 @@ header {
     
 
     .menu a {
-        color: whitesmoke;
-        font-size: 10px;
-        padding: 15px 0;
-        width: 100%;
+        color: #fff;
+        font-size: clamp(14px, 4vw, 20px);
+        min-height: 48px; /* touch target mínimo */
+        padding: 0 16px;
+        width: auto;
         text-align: center;
-        
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .menu a:first-child {
@@ -138,11 +154,17 @@ header {
 
     .close-btn {
         position: absolute;
-        top: 20px;
-        right: 20px;
+        top: 16px;
+        left: 16px;
+        right: auto;
+        z-index: 1002;
         font-size: 32px;
         color: #fff;
         cursor: pointer;
+        background: transparent;
+        border: none;
+        width: 48px;
+        height: 48px;
     }
 
     .menu .logo {
@@ -162,6 +184,15 @@ header {
     .menu .logo img {
         width: auto;
         height: 0;
+    }
+    /* Imagen dentro del menú: crecimiento proporcional con límite */
+    .menu img {
+        width: clamp(48px, 24vw, 180px);
+        max-width: 180px;
+        height: auto;
+        padding-left: var(--nav-side-padding);
+        transition: width 0.3s ease;
+        object-fit: contain;
     }
 
     .menu .bar {
@@ -210,6 +241,54 @@ header {
         margin: 20px;
         overflow: hidden;
     }
-    
+    /* Menú abierto a pantalla completa en tablet */
+    .menu.open {
+        display: flex;
+        position: fixed;
+        inset: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: #02113A;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 18px;
+        z-index: 1001;
+        transform: translateY(0);
+        transition: transform 0.3s ease, opacity 0.3s ease;
+        opacity: 1;
+        padding: 80px 24px 24px;
+        padding-left: 0; /* eliminar espacio izquierdo en tablet también */
+    }
+    .menu.open a {
+        color: #fff;
+        font-size: clamp(14px, 2.8vw, 22px);
+        min-height: 48px;
+        padding: 0 16px;
+        width: auto;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .close-btn {
+        position: absolute;
+        top: 16px;
+        left: 16px;
+        right: auto;
+        z-index: 1002;
+    }
 
 } 
+.nav-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.4);
+    z-index: 1000; /* debajo del menú pero encima del contenido */
+    display: none;
+}
+
+.nav-overlay.show {
+    display: block;
+}

@@ -6,13 +6,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import '../stylesheets/Carrusel2.css'
 import { EffectCoverflow, Pagination, Navigation, Autoplay } from 'swiper/modules';
-import slide_image_1 from '../../public/assets/logoacees.jfif';
-import slide_image_2 from '../../public/assets/logogrub.jfif';
-import slide_image_3 from '../../public/assets/logomass.jfif';
-import slide_image_4 from '../../public/assets/logomelomarket.jfif';
-import slide_image_5 from '../../public/assets/logonaturasas.jfif';
-import slide_image_6 from '../../public/assets/logonextdoor.jfif';
-import slide_image_7 from '../../public/assets/logoreeds.jfif';
+// Usar rutas públicas servidas desde /assets (Vite public dir)
 // import slide_image_8 from '../../assets/logosconcursos/logoterritorial2021.jfif';
 import { Link } from 'react-router-dom';
 
@@ -49,27 +43,25 @@ const Slider2 = () => {
       >
                
         <SwiperSlide>
-        
-          <img src={slide_image_1} alt="slide_image" />
+          <img src="/assets/logoacees.jfif" alt="slide_image" />
         </SwiperSlide>
         <SwiperSlide>
-     
-          <img  src={slide_image_2} alt="slide_image" />
+          <img  src="/assets/logogrub.jfif" alt="slide_image" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={slide_image_3} alt="slide_image" />
+          <img src="/assets/logomass.jfif" alt="slide_image" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={slide_image_4} alt="slide_image" />
+          <img src="/assets/logomelomarket.jfif" alt="slide_image" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={slide_image_5} alt="slide_image" />
+          <img src="/assets/logonaturasas.jfif" alt="slide_image" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={slide_image_6} alt="slide_image" />
+          <img src="/assets/logonextdoor.jfif" alt="slide_image" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={slide_image_7} alt="slide_image" />
+          <img src="/assets/logoreeds.jfif" alt="slide_image" />
         </SwiperSlide>
         {/* <SwiperSlide>
           <img src={slide_image_8} alt="slide_image" />

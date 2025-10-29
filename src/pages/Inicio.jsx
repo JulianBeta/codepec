@@ -1,10 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import '../stylesheets/Inicio.css'
-import imagenciudad from '../../public/assets//ciudad.jpg'
-import imagenestablecimiento from '../../public/assets/establecimiento.jpg'
 import Slider2 from '../components/Carrusel2'
-import logofondo from '../../public/assets/Logopequeño.png'
 
 
 
@@ -13,7 +10,7 @@ export const Inicio = () => {
 
         <div className='contenedorpagina'>
 
- {/* <div className='contenedorpagina' style={{ background: `url(${logofondo})`, backgroundRepeat: 'repeat', backgroundAttachment: 'local', backgroundSize: '100%' }}> */}
+ {/* Fondo con imagen (si se requiere): usar ruta pública: '/assets/Logopequeño.png' */}
             
            
             <h1 className='titulossecundariosinicio'>¿QUIÉNES SOMOS?</h1>
@@ -27,10 +24,10 @@ export const Inicio = () => {
 
 
  <div className='contenedorservicios'>
-                <div className='cuadroserviciosinicio'><Link to="/serviciosurbanismo"><img className="imagenesinicio" src={imagenciudad} alt="urbanismo" /><h3 className='textoserviciosinicio'>URBANISMO</h3></Link>
+                <div className='cuadroserviciosinicio'><Link to="/serviciosurbanismo"><img className="imagenesinicio" src="/assets/ciudad.jpg" alt="urbanismo" /><h3 className='textoserviciosinicio'>URBANISMO</h3></Link>
                 </div>
                 <div className='cuadroserviciosinicio'>
-                    <Link to="/serviciosestablecimientos"><img className="imagenesinicio" src={imagenestablecimiento} alt="establecimientos" /><h3 className='textoserviciosinicio'>ESTABLECIMIENTOS DE COMERCIO</h3></Link>
+                    <Link to="/serviciosestablecimientos"><img className="imagenesinicio" src="/assets/establecimiento.jpg" alt="establecimientos" /><h3 className='textoserviciosinicio'>ESTABLECIMIENTOS DE COMERCIO</h3></Link>
                 </div></div>
 
                            <h1 className='titulossecundariosinicio'>¿POR QUÉ ELEGIR CODEPEC S.A.S.?</h1>
