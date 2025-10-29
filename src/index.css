@@ -45,25 +45,3 @@ body {
     background-color: rgb(214, 229, 230);
 }
 
-/* Sticky footer layout */
-html, body, #root {
-    height: 100%;
-}
-
-.app-shell {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
-
-.page-content {
-    flex: 1 0 auto;
-    padding-top: 15vh; /* account for fixed header height */
-}
-
-@media (max-width: 768px) {
-    .page-content {
-        padding-top: 15vh;
-    }
-}
-

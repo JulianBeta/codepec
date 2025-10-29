@@ -1,7 +1,9 @@
 .contenedorpagina {
+
     max-width: 100vw;
     overflow: hidden;
-    margin-top: 0; /* standardized: rely on global .page-content padding */
+    margin-top: 20vh;
+
 }
 
 .contenedorservicios {
@@ -77,9 +79,11 @@ b {
 
 @media all and (max-width: 720px) {
     .contenedorpagina {
+
         max-width: 100vw;
         overflow: hidden;
-        margin-top: 0; /* standardized */
+        margin-top: 20vh;
+    
     }
     
     .contenedorservicios {
